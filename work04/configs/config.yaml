@@ -1,0 +1,19 @@
+server:
+  http:
+    addr: 0.0.0.0:8088
+    timeout: 1s
+data:
+  datasource:
+    driverName: mysql
+#    host: 192.168.8.109
+    host: 127.0.0.1
+    port: 3306
+    database: geek
+    username: root
+    password: 123456
+    charset: utf8
+  redis:
+    addr: 127.0.0.1:6379
+    read_timeout: 0.2s
+    write_timeout: 0.2s
+
